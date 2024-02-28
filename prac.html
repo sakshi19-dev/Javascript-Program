@@ -59,6 +59,48 @@
 			{
 				console.log("IIEF");
 			}) ();
+
+
+			var a = 10;
+			var b = "10";
+			console.log(a == b);
+			console.log(a === b);
+
+			//array
+			var a = [1,2,3,4];
+			//Without for loop
+			console.log(a);
+
+			//with for loop
+			for(var i =0;i<a.length;i++)
+			{
+				console.log(a[i]);
+			}
+
+			var b = new Array(3);
+			b[0]=11;
+			b[1]=21;
+
+			console.log(b);
+			for(var i =0;i<b.length;i++)
+			{
+				console.log(b[i]);
+			}
+
+			//Null and undefined
+			console.log(typeof(null));
+			console.log(typeof(undefined));
+
+			console.log(null == undefined); // true
+			console.log(null === undefined); //false
+
+			let num1 = null;
+			let num2 = 3;
+			console.log(num1+num2);
+
+			let num3 ;
+			console.log(num3+num2);
+
 		</script>
 	</body>
 </html>
